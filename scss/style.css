@@ -1,0 +1,142 @@
+.explore {
+  margin-top: 30px;
+}
+.explore__title {
+  font-size: 45px;
+  line-height: 56px;
+  font-weight: 700;
+}
+.explore__txt {
+  font-size: 24px;
+  margin: 10px 0;
+}
+.explore__cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.explore__card {
+  max-width: 300px;
+  width: 100%;
+  margin-right: 30px;
+}
+.explore__img {
+  max-width: 330px;
+  width: 100%;
+}
+/* amazing */
+.amazing {
+  margin-top: 100px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.amazing__title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  margin-bottom: 20px;
+}
+.amazing__btn {
+  border: 1px solid #1394dd;
+  background-color: #1394dd;
+  color: #fff;
+  border-radius: 24px;
+  padding: 10px 12px;
+}
+.amazing__btn:hover {
+  color: #1394dd;
+  background-color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+}
+.amazing__boxes {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.amazing__box {
+  padding: 0px 15px;
+  padding-top: 60px;
+  max-width: 350px;
+  text-align: start;
+  background-color: #f4f5f6;
+  border-radius: 24px;
+  cursor: pointer;
+  padding-bottom: 30px;
+}
+.amazing__box:hover {
+  background-color: #a0c2e4;
+}
+.amazing__box h3 {
+  margin: 15px 0px;
+}
+/*   questions */
+.questions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.questions__title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  margin-bottom: 20px;
+}
+.questions__list {
+  display: flex;
+  gap: 20px;
+}
+.questions__item {
+  color: #000000;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 10px 12px;
+}
+.questions__item:hover {
+  background-color: black;
+  padding: 10px 12px;
+  border: 1px solid #000000;
+  border-radius: 20px;
+  color: #f4f5f6;
+}
+.questions__txt {
+  max-width: 540px;
+  width: 100%;
+  align-items: center;
+
+  display: flex;
+  gap: 10px;
+
+  padding: 20px 10px;
+  border-bottom: 1px solid #00000090;
+}
+.questions__number {
+  font-weight: bolder;
+}
+.questions__txt img {
+  height: 9px;
+  margin-left: 100px;
+}
+/* container */
+footer {
+  padding-top: 150px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.footer__content p {
+  color: #a0c2e4;
+  font-weight: 500;
+  margin-top: 10px;
+  font-size: 14px;
+}
+.btn {
+  margin-top: 10px;
+  padding: 8px 20px;
+}

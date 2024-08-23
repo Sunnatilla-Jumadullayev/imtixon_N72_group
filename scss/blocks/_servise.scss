@@ -1,0 +1,32 @@
+.servise {
+  margin-top: 20px;
+}
+.servise__title {
+  font-size: 45px;
+  font-weight: 700px;
+}
+.servise__text {
+  color: #777e90;
+  font-weight: 500;
+  margin-top: 10px;
+  font-size: 20px;
+  margin: 10 0px;
+}
+.servise__cards {
+  margin-top: 20px;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.servise__btn {
+  margin-top: 10px;
+  padding: 12px 16px;
+  border: 1px solid #000;
+  border-radius: 24px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.servise__btn:hover {
+  background-color: #777e90;
+  border: none;
+}
